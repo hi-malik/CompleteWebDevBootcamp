@@ -1,3 +1,22 @@
+#bvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.content{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: 100%;
+}
+#myBtn:hover{
+    background: #ddd;
+    color: black;
+    background-position-x: center;
+}
 .cnt{
     text-align: center;
     padding-top: 100px;

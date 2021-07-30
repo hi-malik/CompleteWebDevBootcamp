@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UnderLine</title>
     <link rel="stylesheet" href="style.css">
+    <script src="mozila.js"></script>
 </head>
 <body>
-    <h1 class="cnt">Lorem ipsum dolor sit.</h1>
-    <h1 class="cnt" id="bg">
-        "Its not easy to put underline"
-    </h1>
+    <video autoplay muted loop id="bvideo">
+        <source src="/video/vid.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <h1 class="cnt">Lorem ipsum dolor sit.</h1>
+        <h1 class="cnt" id="bg">
+            "Its not easy to put underline"
+        </h1>
+        <button id="myBtn" oneclick = "myFunction()">Pause</button>
+    </div>
 </body>
 </html>
