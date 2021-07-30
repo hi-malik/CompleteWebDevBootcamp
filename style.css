@@ -1,0 +1,12 @@
+.cnt{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+#bg{
+    background-image: url(img/line.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    /* width: 300px; */
+}
